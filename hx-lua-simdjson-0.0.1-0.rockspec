@@ -1,7 +1,7 @@
 package="hx-lua-simdjson"
 version="0.0.1-0"
 source = {
-   url = "git://github.com/jdonaldson/hx-lua-simdjson",
+   url = "git://github.com/inklit/hx-lua-simdjson",
    tag = "0.0.2"
 }
 description = {
