@@ -7,7 +7,7 @@ FLAGS = -std=c++11 -Wall $(LIBFLAG) $(CFLAGS)
 all: hxsimdjson.so
 
 hxsimdjson.so:
-	$(CXX) $(SRC) $(FLAGS) $(INCLUDE) $(LIBS_PATH) $(LIBS) -o $@
+	$(CXX) $(SRC) $(FLAGS) $(INCLUDE) $(LIBS_PATH) $(LIBS) -o $@ -llua
 
 clean:
 	rm *.so
