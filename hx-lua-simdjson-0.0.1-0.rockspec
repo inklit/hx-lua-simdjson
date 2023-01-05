@@ -9,7 +9,7 @@ description = {
    detailed = [[
       This is a Haxe-specific c++ binding to simdjson for parsing JSON very quickly.
    ]],
-   homepage = "https://github.com/jdonaldson/hx-lua-simdjson",
+   homepage = "https://github.com/inklit/hx-lua-simdjson",
    license = "Apache-2.0"
 }
 dependencies = {
